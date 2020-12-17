@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArchivedClassEntry" representedClassName="ArchivedClassEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="currentGradingPeriod" optional="YES" attributeType="String"/>
+        <attribute name="currentNumOfCuts" optional="YES" attributeType="String"/>
+        <attribute name="daysOfClass" optional="YES" attributeType="String"/>
+        <attribute name="maxNumOfCuts" optional="YES" attributeType="String"/>
+        <attribute name="nameOfClass" optional="YES" attributeType="String"/>
+        <attribute name="schoolYear" optional="YES" attributeType="String"/>
+        <attribute name="timeOfClass" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ClassEntry" representedClassName="ClassEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="currentGradingPeriod" optional="YES" attributeType="String"/>
+        <attribute name="currentNumOfCuts" optional="YES" attributeType="String"/>
+        <attribute name="daysOfClass" optional="YES" attributeType="String"/>
+        <attribute name="maxNumOfCuts" optional="YES" attributeType="String"/>
+        <attribute name="nameOfClass" optional="YES" attributeType="String"/>
+        <attribute name="schoolYear" optional="YES" attributeType="String"/>
+        <attribute name="timeOfClass" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ClassEntry" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="ArchivedClassEntry" positionX="-63" positionY="36" width="128" height="148"/>
+    </elements>
+</model>
